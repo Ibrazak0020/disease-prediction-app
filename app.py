@@ -103,4 +103,5 @@ if st.button("🔍 Predict Disease"):
 # 5️⃣ Footer
 # ----------------------------------------------------------
 st.markdown("---")
-st.caption("Made with ❤️ using Streamlit and Machine Learning")
+st.info("ℹ️ This prediction is based on patterns in the dataset. "
+                "Always consult a certified medical professional for real diagnosis.")
