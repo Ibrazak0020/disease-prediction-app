@@ -142,7 +142,9 @@ if st.button("🔍 Predict Disease", use_container_width=True):
 # ----------------------------------------------------------
 # 5️⃣ Footer
 # ----------------------------------------------------------
-st.markdown("---")
+st.markdown("---") 
+st.info("ℹ️ This prediction is based on patterns in the dataset. "
+                "Always consult a certified medical professional for real diagnosis.")
 st.markdown(
     "<p style='text-align:center; color:gray;'>Made with ❤️ using <b>Streamlit</b> & <b>Machine Learning</b></p>",
     unsafe_allow_html=True
